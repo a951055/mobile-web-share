@@ -1,0 +1,17 @@
+{
+  "name": "mobile-web-share",
+  "version": "1.0.0",
+  "description": "移动端浏览器分享",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "UC share",
+    "qq brower share",
+    "share to (wechat,qq)"
+  ],
+  "author": "Halo",
+  "license": "ISC"
+}
