@@ -5,10 +5,10 @@
     "declaration": true,
     "strict": true,
     "sourceMap": true /* Generates corresponding '.map' file. */,
-    "outDir": "./lib",
+    "outDir": "./dist",
     "removeComments": true /* Do not emit comments to output. */,
     "esModuleInterop": true
   },
-  "include": ["src"],
+  "include": ["./src"],
   "exclude": ["node_modules", "**/__tests__/*"]
 }

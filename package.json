@@ -1,12 +1,18 @@
 {
   "name": "mobile-web-share",
   "version": "1.0.0",
-  "description": "移动端浏览器分享",
-  "main": "index.js",
+  "description": "移动端浏览器分享,copy from:https://github.com/fa-ge/NativeShare",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "tsc -w",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "keywords": [
     "typescript",
