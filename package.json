@@ -4,6 +4,8 @@
   "description": "移动端浏览器分享",
   "main": "index.js",
   "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,5 +15,8 @@
     "share to (wechat,qq)"
   ],
   "author": "Halo",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  }
 }
